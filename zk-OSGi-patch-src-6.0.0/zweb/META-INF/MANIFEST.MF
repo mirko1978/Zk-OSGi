@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: zweb
+Bundle-SymbolicName: org.zkoss.common.zweb;singleton:=true
+Bundle-Version: 6.0.0
+Bundle-ClassPath: .
+Bundle-Vendor: org.zkoss
+Export-Package: org.zkoss.web,
+ org.zkoss.web.fn,
+ org.zkoss.web.mesg,
+ org.zkoss.web.portlet,
+ org.zkoss.web.servlet,
+ org.zkoss.web.servlet.dsp,
+ org.zkoss.web.servlet.dsp.action,
+ org.zkoss.web.servlet.dsp.action.html,
+ org.zkoss.web.servlet.dsp.impl,
+ org.zkoss.web.servlet.http,
+ org.zkoss.web.servlet.xel,
+ org.zkoss.web.util.resource
+Require-Bundle: org.zkoss.common.zel;bundle-version="2.2.1",
+ org.zkoss.common.zcommon;bundle-version="6.0.0"
+Import-Package: javax.portlet;version="1.0.0";resolution:=optional,
+ javax.servlet;version="2.5.0",
+ javax.servlet.http;version="2.5.0"
+Implementation-Version: 6.0.0
+Implementation-URL: http://www.zkoss.org/prj/zweb
+Bundle-ActivationPolicy: lazy
+Specification-Title: Potix Web Library
+Implementation-Vendor: Potix Corporation
+Implementation-Title: org.zkoss.web
+Specification-Version: 6.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Specification-Vendor: Potix Corporation

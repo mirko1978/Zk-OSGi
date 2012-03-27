@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: zul
+Bundle-SymbolicName: org.zkoss.zk.zul;singleton:=true
+Bundle-Version: 6.0.0
+Bundle-Vendor: org.zkoss
+Export-Package: org.zkoss.zul,
+ org.zkoss.zul.event,
+ org.zkoss.zul.ext,
+ org.zkoss.zul.impl,
+ org.zkoss.zul.mesg
+Require-Bundle: org.zkoss.common.zweb;bundle-version="6.0.0",
+ org.zkoss.common.zcommon;bundle-version="6.0.0",
+ org.zkoss.common.zel;bundle-version="2.2.1",
+ org.zkoss.zk.zk;bundle-version="6.0.0"
+Implementation-Vendor: Potix Corporation
+Specification-Title: ZK XUL Components
+Bundle-ActivationPolicy: lazy
+Implementation-Title: org.zkoss.zul
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Implementation-URL: http://www.zkoss.org/prj/zul
+Specification-Version: 6.0.0
+Implementation-Version: 6.0.0
+Specification-Vendor: Potix Corporation
