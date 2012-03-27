@@ -1,0 +1,33 @@
+<zk>
+	<window id="main" width="100%" height="100%"
+		apply="zk.test.MainController" border="normal">
+		<grid>
+			<columns>
+				<column width="300px" />
+				<column width="300px" />
+			</columns>
+			<rows>
+				<row>
+					<label value="Zk6 controller" />
+					<button id="sayHelloBtn" label="Say Hello" />
+				</row>
+				<row>
+					<label
+						value="Image in the same bundle: ~./images/t1.png" />
+					<image src="~./images/t1.png" />
+				</row>
+				<row>
+					<label
+						value="Image in the zk.test2 bundle: ~./images/boxing.png" />
+					<image src="~./images/boxing.png" />
+				</row>
+				<row>
+					<label value="Include from zk.test2 bundle. The controller is in the zk.test3 bundle" />
+					<div>
+						<include src="~./child.zul" />
+					</div>
+				</row>
+			</rows>
+		</grid>
+	</window>
+</zk>

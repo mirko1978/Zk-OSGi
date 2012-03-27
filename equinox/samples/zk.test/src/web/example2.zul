@@ -1,0 +1,26 @@
+<zk>
+<window id="main" width="100%" height="100%">
+	<zscript>
+	<![CDATA[//@IMPORT
+	//Import Here, remove this if you don't need it.
+	import org.zkoss.Version;	
+	import org.zkoss.zul.Messagebox;
+	]]>
+	<![CDATA[//@DECLARATION
+	//Declaration Here, remove this if you don't need it
+	void showMsg(){
+		String message = "You are running ZK Successfully, The ZK Version is "+Version.UID;
+		//alert(message);
+		 //org.zkoss.zul.Messagebox.show(message);
+		Messagebox.show(message);
+	}
+	]]>
+	<![CDATA[
+	//Other code, remove this if you don't need it
+	main.setTitle("Hello ZK");
+	main.setBorder("normal");
+	]]>
+	</zscript>
+	<button label="Say Hello" onClick = "showMsg()"/>
+</window>
+</zk>

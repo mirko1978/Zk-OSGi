@@ -1,0 +1,6 @@
+<window width="100%" height="100%" apply="zk.test3.ChildController">
+	<vlayout>
+		<label value="Hello from zk.test 2!" />
+		<label value="The controller is from zk.test 3!" />
+	</vlayout>
+</window>

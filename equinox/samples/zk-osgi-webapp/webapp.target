@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?>
+
+<target name="webapp" sequenceNumber="5">
+<locations>
+<location path="${workspace_loc}/Library/dev-bundles" type="Directory"/>
+<location path="${workspace_loc}/zk-osgi-webapp/WebContent/WEB-INF/eclipse/plugins" type="Directory"/>
+</locations>
+</target>
